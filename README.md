@@ -128,22 +128,33 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Bước 4: Chuẩn bị file
+### Bước 4: Chuẩn bị token
 
-**1. File token (`tokens.txt`):**
+Mở file `tokens.txt` và điền User Token:
+
 ```
 MTQ2ODIzOTA1NzM1MDk1NTA5OQ.G1xxxxx.xxxxxxxxxxxxxxxxxxxxxxxx
-OTc4NTIwNzIxMjAxMDAwMjYw.YOUR_TOKEN_HERE.xxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-**2. File nội dung (`ngon.txt` hoặc `nhay.txt`):**
+> Nếu dùng nhiều token, mỗi token 1 dòng.
+
+**Cách lấy User Token:**
+1. Mở Discord trên trình duyệt (browser)
+2. Nhấn `F12` → chọn tab **Network**
+3. Gửi tin nhắn bất kỳ trong Discord
+4. Tìm request vừa gửi → **Headers** → **Authorization**
+5. Copy giá trị Authorization (KHÔNG lấy "Bot " hay "Bearer ")
+
+### Bước 5: Chuẩn bị nội dung spam
+
+Mở file `ngon.txt` hoặc `nhay.txt` và điền nội dung (mỗi dòng 1 tin nhắn):
+
 ```
 Xin chào các bạn!
 Hôm nay trời đẹp quá!
-AIFAOIHFASIOFHASIOFH
 ```
 
-### Bước 5: Chạy tool
+### Bước 6: Chạy tool
 
 ```bash
 python bot.py
