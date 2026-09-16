@@ -1,0 +1,16 @@
+bs4
+requests
+rich
+backoff
+websockets
+art
+cachetools
+cryptography
+aiohttp
+pystyle
+Crypto
+pycryptodome
+art
+httpx
+pyfiglet
+colorama
