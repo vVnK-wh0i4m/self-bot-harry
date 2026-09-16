@@ -101,14 +101,18 @@
 
 ## 📥 Cài đặt và chạy
 
-### Bước 1: Clone repo
+### Bước 1: Tải code
+
+- [📥 **Tải file ZIP**](https://github.com/vVnK-wh0i4m/self-bot-harry/archive/refs/heads/main.zip)
+- Hoặc clone: `git clone https://github.com/vVnK-wh0i4m/self-bot-harry.git`
+
+### Bước 2: Vào thư mục
 
 ```bash
-git clone https://github.com/vVnK-wh0i4m/self-bot-harry.git
 cd self-bot-harry
 ```
 
-### Bước 2: Tạo virtual environment (khuyến nghị)
+### Bước 3: Tạo virtual environment (khuyến nghị)
 
 ```bash
 python -m venv .venv
